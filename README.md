@@ -2,12 +2,12 @@
 
 ## Overview
 In the rapidly evolving landscape of wireless communication and sensing, the
-integration of radar and communication systems has emerged as a transformative approach to maximize spectrum utilization and operational efficiency. This
+integration of radar and communication systems has emerged as a transformative approach to maximize spectrum utilization and operational efficiency. This
 convergence not only facilitates simultaneous radar sensing and communicationbut also introduces unprecedented challenges and opportunities in system design
 and implementation.
 Index modulation stands as a pivotal technique driving advancements in thisdomain. It involves the strategic manipulation of specific parameters within
 the transmission system, such as frequency, phase, or amplitude, to encodesupplementary information alongside primary communication or radar sensing
-data. By capitalizing on the inherent redundancy or degrees of freedom inthese parameters, index modulation offers a powerful means to enhance spectral efficiency, bolster reliability, and unlock novel functionalities in joint radarcommunication systems.
+data. By capitalizing on the inherent redundancy or degrees of freedom inthese parameters, index modulation offers a powerful means to enhance spectral efficiency, bolster reliability, and unlock novel functionalities in joint radar-communication systems.
 This report delves into the foundational concept of index modulation and itsprofound implications in the context of joint radar-communication systems. We
 embark on a journey to explore how sophisticated index modulation techniquescan be harnessed to facilitate seamless radar sensing and communication over
 a shared frequency band, ushering in an era of more adaptable and versatilewireless systems.
@@ -94,7 +94,7 @@ In our system, chirps play a crucial role. Let's break down the key components r
 enabling accurate identification and decoding of transmitted information.
 
 ## 5 - ML Section Function:
-- This function executes ML estimation to discern chirp parameters by computing the distance between the received signal and the reference signal across all plausible chirp parameter permutations.It returns the chirp parameters corresponding to the minimumdistance, facilitating efficient and robust decoding of transmitted information.
+- This function executes ML estimation to discern chirp parameters by computing the distance between the received signal and the reference signal across all plausible chirp parameter permutations.It returns the chirp parameters corresponding to the minimumdistance, facilitating efficient and robust decoding of transmitted information.
 
 
 This meticulously crafted MATLAB code orchestrates the transmission, reception, and processing of chirp signals within a joint radar-communication ecosystem, underscoring the sophistication and efficacy of the system model and receiver algorithm.
