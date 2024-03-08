@@ -90,11 +90,11 @@ In our system, chirps play a crucial role. Let's break down the key components r
    - received chirps: A matrix depicting received chirp signals corrupted by AWGN across varying signal-to-noise ratios (SNRs), mimicking real-world channel         impairments and noise environments.
 
 ## 4 - Receiver Function:
--The receiver function plays a pivotal role in detecting and extracting transmitted chirp signals from the received datastream. It accepts the received signal, a reference signal, and the number of chirps to detect as input parameters.The function entails demultiplexing the received signal and removing guard times to isolate individual chirps for subsequent processing. - Maximum likelihood (ML) estimation is employed to detect chirp parameters based on the reference signal,
+-The receiver function plays a pivotal role in detecting and extracting transmitted chirp signals from the received datastream. It accepts the received signal, a reference signal, and the number of chirps to detect as input parameters.The function entails demultiplexing the received signal and removing guard times to isolate individual chirps for subsequent processing. - Maximum likelihood (ML) estimation is employed to detect chirp parameters based on the reference signal,
 enabling accurate identification and decoding of transmitted information.
 
 ## 5 - ML Section Function:
 - This function executes ML estimation to discern chirp parameters by computing the distance between the received signal and the reference signal across all plausible chirp parameter permutations.It returns the chirp parameters corresponding to the minimumdistance, facilitating efficient and robust decoding of transmitted information.
 
 
-This meticulously crafted MATLAB code orchestrates the transmission, reception, and processing of chirp signals within a joint radar-communication ecosystem, underscoring the sophistication and efficacy of the system model and receiver algorithm.
+This meticulously crafted MATLAB code orchestrates the transmission, reception, and processing of chirp signals within a joint radar-communication ecosystem, underscoring the sophistication and efficacy of the system model and receiver algorithm.
